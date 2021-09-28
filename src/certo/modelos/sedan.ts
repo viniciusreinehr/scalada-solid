@@ -14,20 +14,20 @@ export default class Sedan implements IModelos {
   ) {}
 
   criar() {
-    console.log('[CARRO SEDAN] Criando carro')
+    console.log('[SEDAN] Criando carro')
     this.rodas.adicionar()
     this.portas.adicionar()
     this.passageiros.adicionar()
     this.movimento.adicionar()
-    console.log('[CARRO SEDAN] Carro criado')
+    console.log('[SEDAN] Carro criado')
   }
 
   destruir() {
-    console.log('[CARRO SEDAN] Destruindo carro')
+    console.log('[SEDAN] Destruindo carro')
     this.movimento.remover()
     this.passageiros.remover()
     this.portas.remover()
     this.rodas.remover()
-    console.log('[CARRO SEDAN] Carro destruido')
+    console.log('[SEDAN] Carro destruido')
   }
 }
